@@ -37,7 +37,7 @@ class SSIMCalculator {
         commandEncoder.setTexture(textureX, index: 0)
         commandEncoder.setTexture(textureY, index: 1)
 
-        print("width: \(textureX.width), height: \(textureX.height)")
+//        print("width: \(textureX.width), height: \(textureX.height)")
         // 设置缓冲区以存储结果
         let blockCountX: Int = (textureX.width + blockSize - 1) / blockSize
         let blockCountY: Int = (textureX.height + blockSize - 1) / blockSize
